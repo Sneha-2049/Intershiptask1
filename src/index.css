@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+
+}
+
+button, img {
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+}
+button:hover{
+    transform: scale(1.1);
+}

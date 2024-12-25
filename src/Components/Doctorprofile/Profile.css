@@ -1,0 +1,198 @@
+.doctorprofile-container {
+    position: absolute;
+    width: 1220px;
+    height: 197px;
+    left: 110px;
+    top: 155px;
+    background: #EAF2EA;
+    border-radius: 12px;
+}
+
+.container {
+    position: absolute;
+    width: 1220px;
+    height: 213px;
+    left: 0px;
+    top: 0px;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.background {
+    position: absolute;
+    width: 1220px;
+    height: 168px;
+    top: -2px;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.Doctor-profile {
+    position: absolute;
+    width: 1220px;
+    height: 151px;
+    top: 150px;
+    background: #FFFBF2;
+    border: 1px solid #D8D8D8;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.profile-detail {
+    width: 380px;
+    height: 151px;
+}
+
+.profile-pic {
+    box-sizing: border-box;
+    position: absolute;
+    width: 159px;
+    height: 159px;
+    left: 35px;
+    bottom: 27px;
+    background-size: cover;
+}
+
+.doctor-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 162px;
+    height: 46px;
+    left: 215px;
+    top: 40px;
+}
+
+.doctor-name {
+    display: flex;
+    gap: 3px;
+}
+
+.doctor-name h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #212529;
+    display: flex;
+    align-items: center;
+    color: #212529;
+}
+
+.symbol {
+    width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor-description p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #3A643B;
+}
+
+.rating {
+    display: flex;
+    gap: 3px;
+}
+
+.rating p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #626262;
+}
+
+.rating img {
+    height: 22px;
+    width: 20px;
+}
+
+.impression-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 74px;
+    width: 318.16px;
+    height: 45.8px;
+}
+
+.impression {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    justify-content: center;
+    gap: 5px;
+}
+
+.impression p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3A643B;
+}
+
+.impression h5 {
+    width: 38.99px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #212529;
+}
+
+.Appointment-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 274px;
+    height: 59px;
+    background: #3A643B;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.body-container {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    left: 110px;
+    top: 490px;
+
+}

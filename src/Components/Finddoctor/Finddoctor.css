@@ -1,0 +1,373 @@
+    /* finddoctor-dashboard  */
+    .finddoctor-dashboard {
+        position: absolute;
+        width: 100vw;
+        height: 221px;
+        left: 0px;
+        top: 90px;
+        background: #EAF2EA;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .finddoctor-dashboard h1 {
+        height: 24px;
+        font-family: 'Gotham Rounded';
+        font-style: normal;
+        font-weight: 350;
+        font-size: 32px;
+        line-height: 24px;
+        letter-spacing: 0.005em;
+        color: #000000;
+    }
+
+    .dashboard-buttons {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0px;
+        gap: 8px;
+        width: 650px;
+        height: 54px;
+    }
+
+    .location {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 30px;
+        gap: 8px;
+        width: 200px;
+        height: 54px;
+        background: #FFFFFF;
+        border: 1px solid #D4D4D4;
+        border-radius: 8px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.005em;
+        color: #767676;
+        background-repeat: no-repeat;
+        background-size: 25px 25px;
+        background-position: 5px center;
+
+    }
+
+    .location:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    #search-doctor {
+        display: flex;
+        padding: 13px 10px;
+        width: 409.88px;
+        height: 54px;
+        background: #FFFFFF;
+        border: 1px solid #CDCDCD;
+        border-radius: 10px;
+    }
+
+    #search-doctor:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    #search-doctor::placeholder {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.5px;
+        color: #7B7B7B;
+
+    }
+
+    .arrow-icon {
+        display: inline-block;
+        width: 28.16px;
+        height: 24px;
+        background-repeat: no-repeat;
+        position: relative;
+        left: 355px;
+        bottom: 34px;
+
+        cursor: pointer;
+    }
+
+    /* Filter Section */
+
+    .filter-section {
+        position: absolute;
+        width: 100vw;
+        height: 72px;
+        left: 0px;
+        top: 311px;
+        background: #FFFFFF;
+        border: 1px solid #EDEDED;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .filter-section select {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 6px 13px;
+        width: 148px;
+        height: 40px;
+        background: #F3F3F3;
+        border-radius: 7px;
+        font-family: 'DINPro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #585858;
+
+    }
+
+    #All-filters {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 6px 10px 6px 13px;
+        gap: 40px;
+        width: 142px;
+        height: 40px;
+        background: #DCEEDC;
+        border-radius: 7px;
+        font-family: 'DINPro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #3A643B;
+    }
+
+    .filter-section select:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+
+    .filter-chip-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        position: absolute;
+        width: 570.18px;
+        height: 45px;
+        left: 748px;
+        top: 443px;
+    }
+
+    .filter-chip {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        min-width: max-content;
+        height: 45px;
+        padding: 15px 30px;
+        background: #EAF2EA;
+        border-radius: 31px;
+        cursor: pointer;
+    }
+
+    .filter-chip p span {
+        cursor: pointer;
+    }
+
+    /* Doctor-card */
+
+    .doctor-container {
+        position: absolute;
+        top: 545px;
+        left: 166px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .doctor-card {
+        width: 356px;
+        height: 561px;
+        background: #FFF7E2;
+        border: 1px solid #E3E3E3;
+        box-shadow: 0px 4px 12.5px rgba(0, 0, 0, 0.07);
+        border-radius: 30px;
+        padding: 30px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        gap: 25px;
+        transition: all 1s ease;
+    }
+    .doctor-card:hover{
+        transform: scale(1.11);
+    }
+
+    .doctor-pic {
+        width: 149px;
+        min-height: 154px;
+        background-position: top;
+        z-index: 10;
+        background-size: cover;
+    }
+
+    .doctor-name {
+        width: 265px;
+        height: 28px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 28px;
+        letter-spacing: -0.01em;
+        color: #2E2F2E;
+    }
+
+    .doctor-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 7px;
+        width: 255px;
+        height: 78px;
+    }
+
+    .data {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .data img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .data p {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        color: #646665;
+    }
+
+    .services {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px;
+        gap: 8px;
+        width: 289px;
+        height: 57px;
+        margin-top: -10px;
+    }
+
+    .service-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+        padding-top: 8px;
+        width: 136px;
+        height: 57px;
+        background: #FFF7E2;
+        border: 1px solid rgba(58, 100, 59, 0.39);
+        border-radius: 10px;
+    }
+
+    .service-card h3 {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        color: #3C3C3C;
+    }
+
+    .service-card p {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        color: #3A643B;
+    }
+
+    .doctor-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        gap: 9px;
+        width: 286px;
+        height: 104px;
+
+    }
+
+    .doctor-buttons a {
+        text-decoration: none;
+    }
+
+    .profile-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 287px;
+        height: 42px;
+        background: #FFFFFF;
+        border: 1px solid #3A643B;
+        border-radius: 8px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        color: #3A643B;
+        text-decoration: none;
+    }
+
+    .book-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 287px;
+        height: 53px;
+        background: #3A643B;
+        border-radius: 8px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+        border: none;
+    }
