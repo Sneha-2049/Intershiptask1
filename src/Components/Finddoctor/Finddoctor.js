@@ -85,7 +85,7 @@ function Finddoctor() {
         }}>
           <option value="expertise">Expertise</option>
           <option value="Hair Care">Hair Care</option>
-          <option value="Neurology">Skin Care</option>
+          <option value="Skin Care">Skin Care</option>
         </select>
         <select value={gender} onChange={(e) => setGender(e.target.value)}>
           <option value="Gender">Gender</option>
